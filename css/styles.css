@@ -24,3 +24,29 @@
   margin-top: 10%;
   margin-bottom: 8%;
 }
+#aboutus{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.service{
+  background-image: url(../images/s_image.jpg);
+  color: white;
+  background-size: 100%;
+  text-align: center;
+  position: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+}
+#service{
+  padding-top: 100px;
+  padding-bottom:100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
