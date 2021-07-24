@@ -82,3 +82,27 @@
 #prod-p{
   display: none;
 }
+#portfolio{
+  text-align: center;
+}
+#portfolio2{
+  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+.text-wrapper1{
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-size: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.text{
+  width:800px;
+  height:250px;
+  background-color: transparent;
+  margin-left: 10%;
+}
+.contact-us{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
