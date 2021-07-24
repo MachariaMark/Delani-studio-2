@@ -134,3 +134,80 @@
   align-items: center;
   margin-left: 20px;
 }
+.col{
+  margin-left: 26%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#work4-p p{
+  display: none;
+}
+footer{
+  text-align: center;
+}
+.work4,.work3,.work2,.work1,.work5,.work6,.work7,.work8{
+  display: none;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 90%;
+}
+#portfolio1 , #portfolio2{
+  padding-top: 3%;
+}
+/* media queries */
+@media screen  and  (max-width:980px)  {
+  .container{
+    width:100%;
+    margin-bottom:10px;
+    background-size: cover;
+  }
+  .text{
+    width: 80%;
+    margin-top: 10px;
+  }
+  #form1{
+    width:100%;
+    margin-top: 10px;
+    background-size: cover;
+
+  }
+  #portfolio1 , #portfolio2{
+    margin-bottom: 10px;
+  }
+  #work4,#work3,#work2,#work1,#work5,#work6,#work7,#work8{
+    margin-bottom: 10px;
+  }
+  .text-wrapper{
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+  }
+  #aboutus{
+    width:100%;
+  }
+  #service{
+    width:100%;
+    background-size: cover;
+    justify-content: center;
+  }
+  .socials{
+    width:100%;
+
+  }
+  #email ,#name {
+    width:50%;
+    justify-content: center;
+    margin-left: 2px;
+  }
+  #text{
+    width:50%;
+    margin-left: 2px;
+  }
+  #submit{
+    margin-left: 2px;
+  }
+}
